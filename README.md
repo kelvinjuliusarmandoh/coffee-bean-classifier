@@ -23,19 +23,19 @@
 
 <h2>Project structure</h2>
 ```
-coffee-bean-classifier/
-│
-├── data/                 # Directory for dataset
-├── models/               # Saved models
-├── notebooks/            # Jupyter notebooks for exploratory data analysis
-├── Modular/                  # Source code for the project
-│   ├── data_setup.py
-│   ├── engine.py
-│   ├── model_builder.py
-│   └── train.py
-├── results/              # Directory to save model results and logs
-├── README.md             # Project README file
-└── requirements.txt      # Python dependencies
+  coffee-bean-classifier/
+  │
+  ├── data/                 # Directory for dataset
+  ├── models/               # Saved models
+  ├── notebooks/            # Jupyter notebooks for exploratory data analysis
+  ├── Modular/                  # Source code for the project
+  │   ├── data_setup.py
+  │   ├── engine.py
+  │   ├── model_builder.py
+  │   └── train.py
+  ├── results/              # Directory to save model results and logs
+  ├── README.md             # Project README file
+  └── requirements.txt      # Python dependencies
 ```
   
 <h2>Model Description</h2>
