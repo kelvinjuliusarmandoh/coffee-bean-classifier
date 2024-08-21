@@ -23,28 +23,33 @@
 
 <h2>Project structure</h2>
   ```
-  coffee-bean-classifier/
-  │
-  ├── data/                 # Directory for dataset
-  ├── models/               # Saved models
-  ├── notebooks/            # Jupyter notebooks for exploratory data analysis
-  ├── Modular/                  # Source code for the project
-  │   ├── data_preprocessing.py
-  │   ├── train.py
-  │   ├── test.py
-  │   └── classify.py
-  ├── results/              # Directory to save model results and logs
-  ├── README.md             # Project README file
-  └── requirements.txt      # Python dependencies
+    coffee-bean-classifier/
+    │
+    ├── data/                 # Directory for dataset
+    ├── models/               # Saved models
+    ├── notebooks/            # Jupyter notebooks for exploratory data analysis
+    ├── Modular/                  # Source code for the project
+    │   ├── data_preprocessing.py
+    │   ├── train.py
+    │   ├── test.py
+    │   └── classify.py
+    ├── results/              # Directory to save model results and logs
+    ├── README.md             # Project README file
+    └── requirements.txt      # Python dependencies
   ```
   
 <h2>Usage</h2>
 1. Data Preprocessing
-Before training the model, preprocess the data by running:
+   Before training the model, preprocess the data by running:
 
- ```sh
- python src/data_preprocessing.py --data_dir data/
- ```
+   ```sh
+   python src/data_preprocessing.py --data_dir data/
+   ```
+2. Model Training
+  ```sh
+  python src/train.py --data_dir data/ --epochs 50 --batch_size 32
+  ```
+
 
 
 
