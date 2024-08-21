@@ -22,7 +22,7 @@
 * Matplotlib
 
 <h2>Project structure</h2>
-  ```
+```
   coffee-bean-classifier/
   │
   ├── data/                 # Directory for dataset
@@ -36,7 +36,7 @@
   ├── results/              # Directory to save model results and logs
   ├── README.md             # Project README file
   └── requirements.txt      # Python dependencies
-  ```
+```
   
 <h2>Model Description</h2>
 The Coffee Bean Classifier is based on a Convolutional Neural Network (CNN) architecture optimized for image classification tasks. The model was trained on a dataset of labeled coffee bean images, with the following layers:
@@ -46,5 +46,6 @@ The Coffee Bean Classifier is based on a Convolutional Neural Network (CNN) arch
 * Fully Connected Layers: Classifies the extracted features into different coffee bean types.
 * Output Layer: Provides the final classification result with probabilities.
 
-Results:
+<h2>Results:</h2>
+
 ![image](https://github.com/user-attachments/assets/66f4afc2-cc5f-4ac8-a2f2-640be1b9d0f4)
