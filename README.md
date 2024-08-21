@@ -23,7 +23,6 @@
 
 <h2>Project structure</h2>
 ```
-
   coffee-bean-classifier/
   │
   ├── data/                 # Directory for dataset
