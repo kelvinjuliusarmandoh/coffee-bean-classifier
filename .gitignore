@@ -1,0 +1,4 @@
+*.ipynb
+models/untrained-model-0.pth
+models/pretrained-model.pth
+datasets/
