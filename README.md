@@ -23,7 +23,6 @@
 
 <h2>Project structure</h2>
   ```
-  
   coffee-bean-classifier/
   │
   ├── data/                 # Directory for dataset
@@ -42,6 +41,7 @@
 <h2>Usage</h2>
 1. Data Preprocessing
 Before training the model, preprocess the data by running:
+
  ```sh
  python src/data_preprocessing.py --data_dir data/
  ```
