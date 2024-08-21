@@ -10,10 +10,10 @@
   Doi Chaang (Coffea Arabica) is medium roasted, whereas Brazil Cerrado is dark roasted (Coffea Arabica).</p>
 
 <h2>Key Features</h2>
-* Data Preprocessing
-  Includes Resize the image into 224x224 pixels and transform to floating number around [0, 1]
-* Deep Learning Model: Employs a CNN (Convolutional Neural Network) for high-performance image classification.
-* Evaluation Metrics: Comprehensive evaluation using accuracy.
+*   Data Preprocessing
+    Includes Resize the image into 224x224 pixels and transform to floating number around [0, 1]
+*   Deep Learning Model: Employs a CNN (Convolutional Neural Network) for high-performance image classification.
+*   Evaluation Metrics: Comprehensive evaluation using accuracy.
 
 <h2>Prerequisites</h2>
 * Python 3.10.13
