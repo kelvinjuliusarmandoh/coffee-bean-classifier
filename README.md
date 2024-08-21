@@ -1,7 +1,6 @@
 <h1>Coffee Bean Classifier</h1>
 
 
-
 <h2>Overview</h2>
 <p>The Coffee Bean Classifier is a machine learning project designed to classify different types of coffee beans based on various features such as color, size, and shape. 
   The goal is to help coffee producers, roasters, and distributors quickly identify the quality and type of coffee beans to ensure consistent product quality.</p>
@@ -23,6 +22,7 @@
 * Matplotlib
 
 <h2>Project structure</h2>
+  ```
   coffee-bean-classifier/
   │
   ├── data/                 # Directory for dataset
@@ -36,11 +36,14 @@
   ├── results/              # Directory to save model results and logs
   ├── README.md             # Project README file
   └── requirements.txt      # Python dependencies
-
+  ```
+  
 <h2>Usage</h2>
 1. Data Preprocessing
 Before training the model, preprocess the data by running:
- **python src/data_preprocessing.py --data_dir data/**
+ ```sh
+ python src/data_preprocessing.py --data_dir data/
+ ```
 
 
 
